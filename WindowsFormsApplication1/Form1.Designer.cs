@@ -68,7 +68,7 @@
             // 
             this.listBoxcat.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.listBoxcat.FormattingEnabled = true;
-            this.listBoxcat.ItemHeight = 20;
+            this.listBoxcat.ItemHeight = 17;
             this.listBoxcat.Items.AddRange(new object[] {
             "I",
             "II",
@@ -77,7 +77,7 @@
             this.listBoxcat.Location = new System.Drawing.Point(11, 47);
             this.listBoxcat.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxcat.Name = "listBoxcat";
-            this.listBoxcat.Size = new System.Drawing.Size(88, 64);
+            this.listBoxcat.Size = new System.Drawing.Size(88, 55);
             this.listBoxcat.TabIndex = 0;
             this.listBoxcat.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -87,7 +87,7 @@
             this.textBoxcat.Location = new System.Drawing.Point(11, 154);
             this.textBoxcat.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxcat.Name = "textBoxcat";
-            this.textBoxcat.Size = new System.Drawing.Size(88, 28);
+            this.textBoxcat.Size = new System.Drawing.Size(88, 24);
             this.textBoxcat.TabIndex = 1;
             this.textBoxcat.TextChanged += new System.EventHandler(this.textBoxcat_TextChanged);
             // 
@@ -95,7 +95,7 @@
             // 
             this.listBoxz.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.listBoxz.FormattingEnabled = true;
-            this.listBoxz.ItemHeight = 20;
+            this.listBoxz.ItemHeight = 17;
             this.listBoxz.Items.AddRange(new object[] {
             "1",
             "2",
@@ -103,7 +103,7 @@
             this.listBoxz.Location = new System.Drawing.Point(157, 47);
             this.listBoxz.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxz.Name = "listBoxz";
-            this.listBoxz.Size = new System.Drawing.Size(91, 64);
+            this.listBoxz.Size = new System.Drawing.Size(91, 55);
             this.listBoxz.TabIndex = 2;
             this.listBoxz.SelectedIndexChanged += new System.EventHandler(this.listBoxz_SelectedIndexChanged);
             // 
@@ -113,7 +113,7 @@
             this.textBoxz.Location = new System.Drawing.Point(157, 154);
             this.textBoxz.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxz.Name = "textBoxz";
-            this.textBoxz.Size = new System.Drawing.Size(91, 28);
+            this.textBoxz.Size = new System.Drawing.Size(91, 24);
             this.textBoxz.TabIndex = 3;
             this.textBoxz.TextChanged += new System.EventHandler(this.textBoxz_TextChanged);
             // 
@@ -123,7 +123,7 @@
             this.label1.Location = new System.Drawing.Point(7, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 22);
+            this.label1.Size = new System.Drawing.Size(64, 17);
             this.label1.TabIndex = 4;
             this.label1.Text = "Categoria";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -134,7 +134,7 @@
             this.label2.Location = new System.Drawing.Point(166, 0);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 22);
+            this.label2.Size = new System.Drawing.Size(86, 17);
             this.label2.TabIndex = 5;
             this.label2.Text = "Zona sismica";
             // 
@@ -144,7 +144,7 @@
             this.label3.Location = new System.Drawing.Point(345, 0);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 22);
+            this.label3.Size = new System.Drawing.Size(86, 17);
             this.label3.TabIndex = 6;
             this.label3.Text = "Tipo de suelo";
             // 
@@ -152,7 +152,7 @@
             // 
             this.listBoxs.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.listBoxs.FormattingEnabled = true;
-            this.listBoxs.ItemHeight = 20;
+            this.listBoxs.ItemHeight = 17;
             this.listBoxs.Items.AddRange(new object[] {
             "A",
             "B",
@@ -162,7 +162,7 @@
             this.listBoxs.Location = new System.Drawing.Point(306, 47);
             this.listBoxs.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxs.Name = "listBoxs";
-            this.listBoxs.Size = new System.Drawing.Size(192, 64);
+            this.listBoxs.Size = new System.Drawing.Size(192, 55);
             this.listBoxs.TabIndex = 7;
             this.listBoxs.SelectedIndexChanged += new System.EventHandler(this.listBoxs_SelectedIndexChanged);
             // 
@@ -172,23 +172,25 @@
             this.textBoxs.Location = new System.Drawing.Point(308, 154);
             this.textBoxs.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxs.Name = "textBoxs";
-            this.textBoxs.Size = new System.Drawing.Size(31, 28);
+            this.textBoxs.Size = new System.Drawing.Size(31, 24);
             this.textBoxs.TabIndex = 8;
             // 
             // listBoxes
             // 
             this.listBoxes.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.listBoxes.FormattingEnabled = true;
-            this.listBoxes.ItemHeight = 20;
+            this.listBoxes.ItemHeight = 17;
             this.listBoxes.Items.AddRange(new object[] {
             "Hormigon armado",
             "Albañileria confinada",
             "Marcos especiales acero",
-            "Marcos excentricos acero"});
+            "Marcos excentricos acero",
+            "Marcos intermedios acero",
+            "Marcos vigas enrejadas acero"});
             this.listBoxes.Location = new System.Drawing.Point(554, 47);
             this.listBoxes.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxes.Name = "listBoxes";
-            this.listBoxes.Size = new System.Drawing.Size(156, 64);
+            this.listBoxes.Size = new System.Drawing.Size(170, 72);
             this.listBoxes.TabIndex = 9;
             this.listBoxes.SelectedIndexChanged += new System.EventHandler(this.listBoxes_SelectedIndexChanged);
             // 
@@ -198,7 +200,7 @@
             this.label4.Location = new System.Drawing.Point(550, 0);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(176, 22);
+            this.label4.Size = new System.Drawing.Size(135, 17);
             this.label4.TabIndex = 10;
             this.label4.Text = "Factor modificación R";
             // 
@@ -208,7 +210,7 @@
             this.textBoxe.Location = new System.Drawing.Point(554, 154);
             this.textBoxe.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxe.Name = "textBoxe";
-            this.textBoxe.Size = new System.Drawing.Size(156, 28);
+            this.textBoxe.Size = new System.Drawing.Size(170, 24);
             this.textBoxe.TabIndex = 11;
             // 
             // textBoxs1
@@ -217,7 +219,7 @@
             this.textBoxs1.Location = new System.Drawing.Point(348, 154);
             this.textBoxs1.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxs1.Name = "textBoxs1";
-            this.textBoxs1.Size = new System.Drawing.Size(32, 28);
+            this.textBoxs1.Size = new System.Drawing.Size(32, 24);
             this.textBoxs1.TabIndex = 12;
             // 
             // textBoxs2
@@ -226,7 +228,7 @@
             this.textBoxs2.Location = new System.Drawing.Point(388, 154);
             this.textBoxs2.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxs2.Name = "textBoxs2";
-            this.textBoxs2.Size = new System.Drawing.Size(31, 28);
+            this.textBoxs2.Size = new System.Drawing.Size(31, 24);
             this.textBoxs2.TabIndex = 13;
             // 
             // textBoxs3
@@ -235,7 +237,7 @@
             this.textBoxs3.Location = new System.Drawing.Point(428, 154);
             this.textBoxs3.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxs3.Name = "textBoxs3";
-            this.textBoxs3.Size = new System.Drawing.Size(31, 28);
+            this.textBoxs3.Size = new System.Drawing.Size(31, 24);
             this.textBoxs3.TabIndex = 14;
             // 
             // textBoxs4
@@ -244,7 +246,7 @@
             this.textBoxs4.Location = new System.Drawing.Point(468, 154);
             this.textBoxs4.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxs4.Name = "textBoxs4";
-            this.textBoxs4.Size = new System.Drawing.Size(31, 28);
+            this.textBoxs4.Size = new System.Drawing.Size(31, 24);
             this.textBoxs4.TabIndex = 15;
             // 
             // textBox1
@@ -253,7 +255,7 @@
             this.textBox1.Location = new System.Drawing.Point(822, 42);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(60, 28);
+            this.textBox1.Size = new System.Drawing.Size(60, 24);
             this.textBox1.TabIndex = 16;
             this.textBox1.Text = "0";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -264,7 +266,7 @@
             this.textBox2.Location = new System.Drawing.Point(822, 101);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(60, 28);
+            this.textBox2.Size = new System.Drawing.Size(60, 24);
             this.textBox2.TabIndex = 17;
             this.textBox2.Text = "0";
             // 
@@ -274,7 +276,7 @@
             this.label5.Location = new System.Drawing.Point(774, 0);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 22);
+            this.label5.Size = new System.Drawing.Size(59, 17);
             this.label5.TabIndex = 18;
             this.label5.Text = "Periodos";
             // 
@@ -284,7 +286,7 @@
             this.label6.Location = new System.Drawing.Point(754, 42);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 22);
+            this.label6.Size = new System.Drawing.Size(23, 17);
             this.label6.TabIndex = 19;
             this.label6.Text = "Tx";
             // 
@@ -294,7 +296,7 @@
             this.label7.Location = new System.Drawing.Point(758, 101);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(29, 22);
+            this.label7.Size = new System.Drawing.Size(23, 17);
             this.label7.TabIndex = 20;
             this.label7.Text = "Ty";
             // 
@@ -302,7 +304,7 @@
             // 
             this.listBoxt.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.listBoxt.FormattingEnabled = true;
-            this.listBoxt.ItemHeight = 20;
+            this.listBoxt.ItemHeight = 17;
             this.listBoxt.Items.AddRange(new object[] {
             "0.01",
             "0.02",
@@ -428,18 +430,18 @@
             this.listBoxt.Location = new System.Drawing.Point(28, 58);
             this.listBoxt.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxt.Name = "listBoxt";
-            this.listBoxt.Size = new System.Drawing.Size(88, 84);
+            this.listBoxt.Size = new System.Drawing.Size(88, 72);
             this.listBoxt.TabIndex = 21;
             // 
             // listBoxac
             // 
             this.listBoxac.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.listBoxac.FormattingEnabled = true;
-            this.listBoxac.ItemHeight = 20;
+            this.listBoxac.ItemHeight = 17;
             this.listBoxac.Location = new System.Drawing.Point(172, 58);
             this.listBoxac.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxac.Name = "listBoxac";
-            this.listBoxac.Size = new System.Drawing.Size(111, 84);
+            this.listBoxac.Size = new System.Drawing.Size(111, 72);
             this.listBoxac.TabIndex = 22;
             // 
             // button1
@@ -473,7 +475,7 @@
             // 
             this.listBoxyt.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.listBoxyt.FormattingEnabled = true;
-            this.listBoxyt.ItemHeight = 20;
+            this.listBoxyt.ItemHeight = 17;
             this.listBoxyt.Items.AddRange(new object[] {
             "0.01",
             "0.02",
@@ -599,18 +601,18 @@
             this.listBoxyt.Location = new System.Drawing.Point(324, 58);
             this.listBoxyt.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxyt.Name = "listBoxyt";
-            this.listBoxyt.Size = new System.Drawing.Size(95, 84);
+            this.listBoxyt.Size = new System.Drawing.Size(95, 72);
             this.listBoxyt.TabIndex = 25;
             // 
             // listBoxac1
             // 
             this.listBoxac1.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.listBoxac1.FormattingEnabled = true;
-            this.listBoxac1.ItemHeight = 20;
+            this.listBoxac1.ItemHeight = 17;
             this.listBoxac1.Location = new System.Drawing.Point(461, 58);
             this.listBoxac1.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxac1.Name = "listBoxac1";
-            this.listBoxac1.Size = new System.Drawing.Size(112, 84);
+            this.listBoxac1.Size = new System.Drawing.Size(112, 72);
             this.listBoxac1.TabIndex = 26;
             // 
             // label8
@@ -619,7 +621,7 @@
             this.label8.Location = new System.Drawing.Point(113, 21);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(112, 22);
+            this.label8.Size = new System.Drawing.Size(87, 17);
             this.label8.TabIndex = 27;
             this.label8.Text = "Espectro en X";
             // 
@@ -629,7 +631,7 @@
             this.label9.Location = new System.Drawing.Point(395, 21);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(112, 22);
+            this.label9.Size = new System.Drawing.Size(87, 17);
             this.label9.TabIndex = 28;
             this.label9.Text = "Espectro en Y";
             // 
@@ -685,7 +687,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
             this.CausesValidation = false;

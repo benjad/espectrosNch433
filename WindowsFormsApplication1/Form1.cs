@@ -60,69 +60,71 @@ namespace WindowsFormsApplication1
         {
             string elemento2 = listBoxs.SelectedIndex.ToString(); //convertir el indice en string
 
-            if (elemento2 == "0")                                    //se compara el string  para asignar valor deseado
-            {
+            switch (elemento2)
+            {case "0":
                 textBoxs.Text = "0.9";
                 textBoxs1.Text = "0.15";
                 textBoxs2.Text = "0.2";
                 textBoxs3.Text = "1";
                 textBoxs4.Text = "2";
-             }
-        else{
-                if (elemento2 == "1")
-                {
-                    textBoxs.Text = "1";
-                    textBoxs1.Text = "0.3";
-                    textBoxs2.Text = "0.35";
-                    textBoxs3.Text = "1.33";
-                    textBoxs4.Text = "1.5";
-                }
-                
-                    if (elemento2 == "2")
-                    {
-                        textBoxs.Text = "1.05";
-                        textBoxs1.Text = "0.4";
-                        textBoxs2.Text = "0.45";
-                        textBoxs3.Text = "1.4";
-                        textBoxs4.Text = "1.6";
-                        }
-                   
-                        if (elemento2 == "3")
-                           {
-                            textBoxs.Text = "1.2";
-                            textBoxs1.Text = "0.75";
-                            textBoxs2.Text = "0.85";
-                            textBoxs3.Text = "1.8";
-                            textBoxs4.Text = "1";
-                            }
-                       if (elemento2 == "4")
-                            {
-                            textBoxs.Text = "1.3";
-                            textBoxs1.Text = "1.2";
-                            textBoxs2.Text = "1.35";
-                            textBoxs3.Text = "1.8";
-                            textBoxs4.Text = "1";
-                            }
-                            }
-                        
-                       }
+                break;
+            case "1":
+                 textBoxs.Text = "1";
+                 textBoxs1.Text = "0.3";
+                 textBoxs2.Text = "0.35";
+                 textBoxs3.Text = "1.33";
+                 textBoxs4.Text = "1.5";
+                break;
+            case "2":
+                 textBoxs.Text = "1.05";
+                 textBoxs1.Text = "0.4";
+                 textBoxs2.Text = "0.45";
+                 textBoxs3.Text = "1.4";
+                 textBoxs4.Text = "1.6";
+                 break;
+            case "3":
+                 textBoxs.Text = "1.2";
+                 textBoxs1.Text = "0.75";
+                 textBoxs2.Text = "0.85";
+                 textBoxs3.Text = "1.8";
+                 textBoxs4.Text = "1";
+                 break;
+            case "4":
+                 textBoxs.Text = "1.3";
+                 textBoxs1.Text = "1.2";
+                 textBoxs2.Text = "1.35";
+                 textBoxs3.Text = "1.8";
+                 textBoxs4.Text = "1";
+                 break;
+            }
+        }
 
         private void listBoxes_SelectedIndexChanged(object sender, EventArgs e)
         {
             string elemento3 = listBoxes.SelectedIndex.ToString(); //convertir el indice en string
-
-            if (elemento3 == "0")                                    //se compara el string  para asignar valor deseado
-                textBoxe.Text = "11";
-            else
-                if (elemento3 == "1")
+            switch (elemento3)
+            {
+                case "0":
+                    textBoxe.Text = "11";
+                    break;
+                case "1":
                     textBoxe.Text = "4";
-                else
-                    if (elemento3 == "2")
-                        textBoxe.Text = "11";
-                    else
-                        textBoxe.Text = "10";
+                    break;
+                case "2":
+                    textBoxe.Text = "11";
+                    break;
+                case "3":
+                    textBoxe.Text = "10";
+                    break;
+                case "4":
+                    textBoxe.Text = "6";
+                    break;
+                case "5":
+                    textBoxe.Text = "10";
+                    break;
+                   }
         }
-
+            
         
 
         private void button1_Click(object sender, EventArgs e)

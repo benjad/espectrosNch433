@@ -25,3 +25,15 @@ C:\Users\Administrator\Google Drive\c#\espectros nch433\WindowsFormsApplication1
 C:\Users\Administrator\Google Drive\c#\espectros nch433\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
 C:\Users\Administrator\Google Drive\c#\espectros nch433\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Administrator\Google Drive\c#\espectros nch433\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Sites\espectros nch433\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Sites\espectros nch433\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Sites\espectros nch433\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Sites\c#-espectros nch433\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Sites\c#-espectros nch433\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Sites\c#-espectros nch433\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Sites\c#-espectros nch433\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Sites\c#-espectros nch433\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Sites\c#-espectros nch433\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Sites\c#-espectros nch433\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Sites\c#-espectros nch433\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Sites\c#-espectros nch433\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
